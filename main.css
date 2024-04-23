@@ -45,12 +45,7 @@ header {
   width: 200px;
   color: var(--textColor);
 }
-.Photo img {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  border: 2px solid black;
-}
+
 .headerTitle {
   margin-left: 5%;
 }
@@ -337,27 +332,5 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   margin: auto;
-  border: 2px solid black;
-  border-radius: 16px;
-  margin-top: 5%;
-  width: 500px;
-  padding: 5%;
-  background-color: var(--CardBackground);
-}
-
-.formButon a {
-  border: 2px solid black;
-  border-radius: 16px;
-  padding: 10%;
-  text-decoration: none;
-  color: var(--textColor);
-  background-color: var(--secondBackground);
-  margin-top: 5%;
-}
-
-.formButon a:hover {
-  border: 2px solid rgb(10, 180, 255);
-  box-shadow: 0 4px 30px black;
 }
