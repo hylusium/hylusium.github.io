@@ -468,9 +468,12 @@ header {
   .compText {
     width: 280px;
     word-break: break-word;
+    margin: 0;
   }
   .compBar {
-    width: 300px;
+    width: 280px;
+    margin: 0;
+    padding: 0;
   }
   .Competences {
     width: 300px;
