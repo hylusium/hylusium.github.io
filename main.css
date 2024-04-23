@@ -45,7 +45,12 @@ header {
   width: 200px;
   color: var(--textColor);
 }
-
+.Photo img {
+  width: 600px;
+  height: 600px;
+  border-radius: 16px;
+  border: 2px solid black;
+}
 .headerTitle {
   margin-left: 5%;
 }
