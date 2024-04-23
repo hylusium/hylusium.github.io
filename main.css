@@ -350,8 +350,19 @@ header {
 .formButon {
   border: 2px solid black;
   border-radius: 16px;
-  padding: 5%;
+  padding: 3%;
   text-decoration: none;
   color: var(--textColor);
   background-color: var(--secondBackground);
+  margin-top: 2%;
+}
+
+.formButon a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+.formButon a:hover {
+  border: 2px solid rgb(10, 180, 255);
+  box-shadow: 0 4px 30px black;
 }
