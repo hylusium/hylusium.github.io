@@ -385,6 +385,14 @@ header {
     position: sticky;
     top: 0;
   }
+  .headerTitle {
+    margin: 0;
+  }
+  .HeaderNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .HeaderNav ul {
     display: flex;
     justify-content: center;
@@ -474,6 +482,7 @@ header {
     width: 280px;
     margin: 0;
     padding: 0;
+    margin-bottom: 5%;
   }
   .Competences {
     width: 300px;
