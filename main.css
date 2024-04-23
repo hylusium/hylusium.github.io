@@ -332,9 +332,21 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   margin: auto;
   border: 2px solid black;
   border-radius: 16px;
   margin-top: 5%;
+  width: 500px;
+  padding: 5%;
+  background-color: var(--CardBackground);
+}
+
+.formButon {
+  border: 2px solid black;
+  border-radius: 16px;
+  padding: 5%;
+  text-decoration: none;
+  color: var(--textColor);
+  background-color: var(--secondBackground);
 }
